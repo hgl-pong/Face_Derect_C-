@@ -44,4 +44,4 @@ opencv 3.4.1版本
 ```
 
 ### 运行截图
-！[运行截图]（Face_Detect_C/test.png "运行截图"）
+！[运行截图]（/Face_Detect_C/test.png "运行截图"）
