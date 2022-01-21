@@ -1,0 +1,1452 @@
+卷 系统 的文件夹 PATH 列表
+卷序列号为 1174-8CEC
+C:.
+│  Face_Detect.gitignore
+│  README.md
+│  tree.txt
+│  
+├─.github
+│  └─workflows
+│          Post.yaml
+│          
+├─.vs
+│  │  ProjectSettings.json
+│  │  slnx.sqlite
+│  │  tasks.vs.json
+│  │  VSWorkspaceState.json
+│  │  
+│  └─Face_Detect_C
+│      │  project-colors.json
+│      │  
+│      └─v17
+│          │  Browse.VC.db
+│          │  
+│          └─ipch
+│              └─AutoPCH
+│                  └─4c341829a14bef1c
+│                          MAIN.ipch
+│                          
+└─Face_Detect_C
+    │  Face_Detect_C.sln
+    │  
+    ├─DLIB
+    │  ├─include
+    │  │  └─dlib
+    │  │      │  algs.h
+    │  │      │  any.h
+    │  │      │  array.h
+    │  │      │  array2d.h
+    │  │      │  assert.h
+    │  │      │  base64.h
+    │  │      │  bayes_utils.h
+    │  │      │  bigint.h
+    │  │      │  binary_search_tree.h
+    │  │      │  bit_stream.h
+    │  │      │  bound_function_pointer.h
+    │  │      │  bridge.h
+    │  │      │  bsp.h
+    │  │      │  byte_orderer.h
+    │  │      │  cassert
+    │  │      │  clustering.h
+    │  │      │  cmd_line_parser.h
+    │  │      │  compress_stream.h
+    │  │      │  conditioning_class.h
+    │  │      │  config.h
+    │  │      │  config_reader.h
+    │  │      │  console_progress_indicator.h
+    │  │      │  control.h
+    │  │      │  cpp_pretty_printer.h
+    │  │      │  cpp_tokenizer.h
+    │  │      │  crc32.h
+    │  │      │  cstring
+    │  │      │  data_io.h
+    │  │      │  directed_graph.h
+    │  │      │  dir_nav.h
+    │  │      │  disjoint_subsets.h
+    │  │      │  dlib_basic_cpp_build_tutorial.txt
+    │  │      │  dlib_include_path_tutorial.txt
+    │  │      │  dnn.h
+    │  │      │  enable_if.h
+    │  │      │  entropy_decoder.h
+    │  │      │  entropy_decoder_model.h
+    │  │      │  entropy_encoder.h
+    │  │      │  entropy_encoder_model.h
+    │  │      │  error.h
+    │  │      │  filtering.h
+    │  │      │  float_details.h
+    │  │      │  fstream
+    │  │      │  geometry.h
+    │  │      │  global_optimization.h
+    │  │      │  graph.h
+    │  │      │  graph_cuts.h
+    │  │      │  graph_utils.h
+    │  │      │  graph_utils_threaded.h
+    │  │      │  gui_core.h
+    │  │      │  gui_widgets.h
+    │  │      │  hash.h
+    │  │      │  hash_map.h
+    │  │      │  hash_set.h
+    │  │      │  hash_table.h
+    │  │      │  image_io.h
+    │  │      │  image_keypoint.h
+    │  │      │  image_processing.h
+    │  │      │  image_transforms.h
+    │  │      │  iomanip
+    │  │      │  iosfwd
+    │  │      │  iosockstream.h
+    │  │      │  iostream
+    │  │      │  istream
+    │  │      │  is_kind.h
+    │  │      │  linker.h
+    │  │      │  locale
+    │  │      │  logger.h
+    │  │      │  lsh.h
+    │  │      │  lz77_buffer.h
+    │  │      │  lzp_buffer.h
+    │  │      │  manifold_regularization.h
+    │  │      │  map.h
+    │  │      │  matrix.h
+    │  │      │  md5.h
+    │  │      │  member_function_pointer.h
+    │  │      │  memory_manager.h
+    │  │      │  memory_manager_global.h
+    │  │      │  memory_manager_stateless.h
+    │  │      │  metaprogramming.h
+    │  │      │  misc_api.h
+    │  │      │  mlp.h
+    │  │      │  noncopyable.h
+    │  │      │  numerical_integration.h
+    │  │      │  numeric_constants.h
+    │  │      │  opencv.h
+    │  │      │  optimization.h
+    │  │      │  ostream
+    │  │      │  pipe.h
+    │  │      │  pixel.h
+    │  │      │  platform.h
+    │  │      │  python.h
+    │  │      │  quantum_computing.h
+    │  │      │  queue.h
+    │  │      │  rand.h
+    │  │      │  random_forest.h
+    │  │      │  ref.h
+    │  │      │  reference_counter.h
+    │  │      │  revision.h
+    │  │      │  sequence.h
+    │  │      │  serialize.h
+    │  │      │  server.h
+    │  │      │  set.h
+    │  │      │  set_utils.h
+    │  │      │  simd.h
+    │  │      │  sliding_buffer.h
+    │  │      │  smart_pointers.h
+    │  │      │  smart_pointers_thread_safe.h
+    │  │      │  sockets.h
+    │  │      │  sockstreambuf.h
+    │  │      │  sort.h
+    │  │      │  sparse_vector.h
+    │  │      │  sqlite.h
+    │  │      │  sstream
+    │  │      │  stack.h
+    │  │      │  stack_trace.h
+    │  │      │  static_map.h
+    │  │      │  static_set.h
+    │  │      │  statistics.h
+    │  │      │  std_allocator.h
+    │  │      │  stl_checked.h
+    │  │      │  string.h
+    │  │      │  svm.h
+    │  │      │  svm_threaded.h
+    │  │      │  sync_extension.h
+    │  │      │  test_for_odr_violations.h
+    │  │      │  threads.h
+    │  │      │  timeout.h
+    │  │      │  timer.h
+    │  │      │  time_this.h
+    │  │      │  timing.h
+    │  │      │  tokenizer.h
+    │  │      │  tuple.h
+    │  │      │  type_safe_union.h
+    │  │      │  uintn.h
+    │  │      │  unicode.h
+    │  │      │  unordered_pair.h
+    │  │      │  vectorstream.h
+    │  │      │  windows_magic.h
+    │  │      │  xml_parser.h
+    │  │      │  
+    │  │      ├─all
+    │  │      ├─any
+    │  │      │      any.h
+    │  │      │      any_abstract.h
+    │  │      │      any_decision_function.h
+    │  │      │      any_decision_function_abstract.h
+    │  │      │      any_function.h
+    │  │      │      any_function_abstract.h
+    │  │      │      any_function_impl.h
+    │  │      │      any_function_impl2.h
+    │  │      │      any_trainer.h
+    │  │      │      any_trainer_abstract.h
+    │  │      │      
+    │  │      ├─appveyor
+    │  │      ├─array
+    │  │      │      array_kernel.h
+    │  │      │      array_kernel_abstract.h
+    │  │      │      array_tools.h
+    │  │      │      array_tools_abstract.h
+    │  │      │      
+    │  │      ├─array2d
+    │  │      │      array2d_generic_image.h
+    │  │      │      array2d_kernel.h
+    │  │      │      array2d_kernel_abstract.h
+    │  │      │      serialize_pixel_overloads.h
+    │  │      │      
+    │  │      ├─base64
+    │  │      │      base64_kernel_1.h
+    │  │      │      base64_kernel_abstract.h
+    │  │      │      
+    │  │      ├─bayes_utils
+    │  │      │      bayes_utils.h
+    │  │      │      bayes_utils_abstract.h
+    │  │      │      
+    │  │      ├─bigint
+    │  │      │      bigint_kernel_1.h
+    │  │      │      bigint_kernel_2.h
+    │  │      │      bigint_kernel_abstract.h
+    │  │      │      bigint_kernel_c.h
+    │  │      │      
+    │  │      ├─binary_search_tree
+    │  │      │      binary_search_tree_kernel_1.h
+    │  │      │      binary_search_tree_kernel_2.h
+    │  │      │      binary_search_tree_kernel_abstract.h
+    │  │      │      binary_search_tree_kernel_c.h
+    │  │      │      
+    │  │      ├─bits
+    │  │      │      c++config.h
+    │  │      │      
+    │  │      ├─bit_stream
+    │  │      │      bit_stream_kernel_1.h
+    │  │      │      bit_stream_kernel_abstract.h
+    │  │      │      bit_stream_kernel_c.h
+    │  │      │      bit_stream_multi_1.h
+    │  │      │      bit_stream_multi_abstract.h
+    │  │      │      bit_stream_multi_c.h
+    │  │      │      
+    │  │      ├─bound_function_pointer
+    │  │      │      bound_function_pointer_kernel_1.h
+    │  │      │      bound_function_pointer_kernel_abstract.h
+    │  │      │      
+    │  │      ├─bridge
+    │  │      │      bridge.h
+    │  │      │      bridge_abstract.h
+    │  │      │      
+    │  │      ├─bsp
+    │  │      │      bsp.h
+    │  │      │      bsp_abstract.h
+    │  │      │      
+    │  │      ├─byte_orderer
+    │  │      │      byte_orderer_kernel_1.h
+    │  │      │      byte_orderer_kernel_abstract.h
+    │  │      │      
+    │  │      ├─clustering
+    │  │      │      bottom_up_cluster.h
+    │  │      │      bottom_up_cluster_abstract.h
+    │  │      │      chinese_whispers.h
+    │  │      │      chinese_whispers_abstract.h
+    │  │      │      modularity_clustering.h
+    │  │      │      modularity_clustering_abstract.h
+    │  │      │      spectral_cluster.h
+    │  │      │      spectral_cluster_abstract.h
+    │  │      │      
+    │  │      ├─cmake_utils
+    │  │      │  │  add_global_compiler_switch.cmake
+    │  │      │  │  check_if_avx_instructions_executable_on_host.cmake
+    │  │      │  │  check_if_neon_available.cmake
+    │  │      │  │  check_if_sse4_instructions_executable_on_host.cmake
+    │  │      │  │  find_blas.cmake
+    │  │      │  │  find_libjpeg.cmake
+    │  │      │  │  find_libpng.cmake
+    │  │      │  │  set_compiler_specific_options.cmake
+    │  │      │  │  tell_visual_studio_to_use_static_runtime.cmake
+    │  │      │  │  use_cpp_11.cmake
+    │  │      │  │  
+    │  │      │  ├─test_for_avx
+    │  │      │  ├─test_for_cpp11
+    │  │      │  ├─test_for_cuda
+    │  │      │  ├─test_for_cudnn
+    │  │      │  ├─test_for_libjpeg
+    │  │      │  ├─test_for_libpng
+    │  │      │  ├─test_for_neon
+    │  │      │  └─test_for_sse4
+    │  │      ├─cmd_line_parser
+    │  │      │      cmd_line_parser_check_1.h
+    │  │      │      cmd_line_parser_check_c.h
+    │  │      │      cmd_line_parser_kernel_1.h
+    │  │      │      cmd_line_parser_kernel_abstract.h
+    │  │      │      cmd_line_parser_kernel_c.h
+    │  │      │      cmd_line_parser_print_1.h
+    │  │      │      get_option.h
+    │  │      │      get_option_abstract.h
+    │  │      │      
+    │  │      ├─compress_stream
+    │  │      │      compress_stream_kernel_1.h
+    │  │      │      compress_stream_kernel_2.h
+    │  │      │      compress_stream_kernel_3.h
+    │  │      │      compress_stream_kernel_abstract.h
+    │  │      │      
+    │  │      ├─conditioning_class
+    │  │      │      conditioning_class_kernel_1.h
+    │  │      │      conditioning_class_kernel_2.h
+    │  │      │      conditioning_class_kernel_3.h
+    │  │      │      conditioning_class_kernel_4.h
+    │  │      │      conditioning_class_kernel_abstract.h
+    │  │      │      conditioning_class_kernel_c.h
+    │  │      │      
+    │  │      ├─config_reader
+    │  │      │      config_reader_kernel_1.h
+    │  │      │      config_reader_kernel_abstract.h
+    │  │      │      config_reader_thread_safe_1.h
+    │  │      │      config_reader_thread_safe_abstract.h
+    │  │      │      
+    │  │      ├─control
+    │  │      │      approximate_linear_models.h
+    │  │      │      approximate_linear_models_abstract.h
+    │  │      │      lspi.h
+    │  │      │      lspi_abstract.h
+    │  │      │      mpc.h
+    │  │      │      mpc_abstract.h
+    │  │      │      
+    │  │      ├─cpp_pretty_printer
+    │  │      │      cpp_pretty_printer_kernel_1.h
+    │  │      │      cpp_pretty_printer_kernel_2.h
+    │  │      │      cpp_pretty_printer_kernel_abstract.h
+    │  │      │      
+    │  │      ├─cpp_tokenizer
+    │  │      │      cpp_tokenizer_kernel_1.h
+    │  │      │      cpp_tokenizer_kernel_abstract.h
+    │  │      │      cpp_tokenizer_kernel_c.h
+    │  │      │      
+    │  │      ├─crc32
+    │  │      │      crc32_kernel_1.h
+    │  │      │      crc32_kernel_abstract.h
+    │  │      │      
+    │  │      ├─cuda
+    │  │      │      cpu_dlib.h
+    │  │      │      cublas_dlibapi.h
+    │  │      │      cuda_data_ptr.h
+    │  │      │      cuda_dlib.h
+    │  │      │      cuda_errors.h
+    │  │      │      cuda_utils.h
+    │  │      │      cudnn_dlibapi.h
+    │  │      │      curand_dlibapi.h
+    │  │      │      cusolver_dlibapi.h
+    │  │      │      gpu_data.h
+    │  │      │      gpu_data_abstract.h
+    │  │      │      tensor.h
+    │  │      │      tensor_abstract.h
+    │  │      │      tensor_tools.h
+    │  │      │      
+    │  │      ├─data_io
+    │  │      │      cifar.h
+    │  │      │      cifar_abstract.h
+    │  │      │      image_dataset_metadata.h
+    │  │      │      libsvm_io.h
+    │  │      │      libsvm_io_abstract.h
+    │  │      │      load_image_dataset.h
+    │  │      │      load_image_dataset_abstract.h
+    │  │      │      mnist.h
+    │  │      │      mnist_abstract.h
+    │  │      │      
+    │  │      ├─directed_graph
+    │  │      │      directed_graph_kernel_1.h
+    │  │      │      directed_graph_kernel_abstract.h
+    │  │      │      
+    │  │      ├─dir_nav
+    │  │      │      dir_nav_extensions.h
+    │  │      │      dir_nav_extensions_abstract.h
+    │  │      │      dir_nav_kernel_1.h
+    │  │      │      dir_nav_kernel_2.h
+    │  │      │      dir_nav_kernel_abstract.h
+    │  │      │      posix.h
+    │  │      │      windows.h
+    │  │      │      
+    │  │      ├─disjoint_subsets
+    │  │      │      disjoint_subsets.h
+    │  │      │      disjoint_subsets_abstract.h
+    │  │      │      disjoint_subsets_sized.h
+    │  │      │      disjoint_subsets_sized_abstract.h
+    │  │      │      
+    │  │      ├─dnn
+    │  │      │      core.h
+    │  │      │      core_abstract.h
+    │  │      │      input.h
+    │  │      │      input_abstract.h
+    │  │      │      layers.h
+    │  │      │      layers_abstract.h
+    │  │      │      loss.h
+    │  │      │      loss_abstract.h
+    │  │      │      misc.h
+    │  │      │      solvers.h
+    │  │      │      solvers_abstract.h
+    │  │      │      trainer.h
+    │  │      │      trainer_abstract.h
+    │  │      │      utilities.h
+    │  │      │      utilities_abstract.h
+    │  │      │      validation.h
+    │  │      │      
+    │  │      ├─entropy_decoder
+    │  │      │      entropy_decoder_kernel_1.h
+    │  │      │      entropy_decoder_kernel_2.h
+    │  │      │      entropy_decoder_kernel_abstract.h
+    │  │      │      entropy_decoder_kernel_c.h
+    │  │      │      
+    │  │      ├─entropy_decoder_model
+    │  │      │      entropy_decoder_model_kernel_1.h
+    │  │      │      entropy_decoder_model_kernel_2.h
+    │  │      │      entropy_decoder_model_kernel_3.h
+    │  │      │      entropy_decoder_model_kernel_4.h
+    │  │      │      entropy_decoder_model_kernel_5.h
+    │  │      │      entropy_decoder_model_kernel_6.h
+    │  │      │      entropy_decoder_model_kernel_abstract.h
+    │  │      │      
+    │  │      ├─entropy_encoder
+    │  │      │      entropy_encoder_kernel_1.h
+    │  │      │      entropy_encoder_kernel_2.h
+    │  │      │      entropy_encoder_kernel_abstract.h
+    │  │      │      entropy_encoder_kernel_c.h
+    │  │      │      
+    │  │      ├─entropy_encoder_model
+    │  │      │      entropy_encoder_model_kernel_1.h
+    │  │      │      entropy_encoder_model_kernel_2.h
+    │  │      │      entropy_encoder_model_kernel_3.h
+    │  │      │      entropy_encoder_model_kernel_4.h
+    │  │      │      entropy_encoder_model_kernel_5.h
+    │  │      │      entropy_encoder_model_kernel_6.h
+    │  │      │      entropy_encoder_model_kernel_abstract.h
+    │  │      │      entropy_encoder_model_kernel_c.h
+    │  │      │      
+    │  │      ├─external
+    │  │      │  ├─cblas
+    │  │      │  │      cblas.h
+    │  │      │  │      cblas_f77.h
+    │  │      │  │      
+    │  │      │  ├─libjpeg
+    │  │      │  │      cderror.h
+    │  │      │  │      cdjpeg.h
+    │  │      │  │      jconfig.h
+    │  │      │  │      jdct.h
+    │  │      │  │      jerror.h
+    │  │      │  │      jinclude.h
+    │  │      │  │      jmemsys.h
+    │  │      │  │      jmorecfg.h
+    │  │      │  │      jpegint.h
+    │  │      │  │      jpeglib.h
+    │  │      │  │      jversion.h
+    │  │      │  │      transupp.h
+    │  │      │  │      
+    │  │      │  ├─libpng
+    │  │      │  │  │  png.h
+    │  │      │  │  │  pngconf.h
+    │  │      │  │  │  pngdebug.h
+    │  │      │  │  │  pnginfo.h
+    │  │      │  │  │  pnglibconf.h
+    │  │      │  │  │  pngpriv.h
+    │  │      │  │  │  pngstruct.h
+    │  │      │  │  │  
+    │  │      │  │  └─arm
+    │  │      │  ├─pybind11
+    │  │      │  │  ├─include
+    │  │      │  │  │  └─pybind11
+    │  │      │  │  │      │  attr.h
+    │  │      │  │  │      │  buffer_info.h
+    │  │      │  │  │      │  cast.h
+    │  │      │  │  │      │  chrono.h
+    │  │      │  │  │      │  common.h
+    │  │      │  │  │      │  complex.h
+    │  │      │  │  │      │  eigen.h
+    │  │      │  │  │      │  embed.h
+    │  │      │  │  │      │  eval.h
+    │  │      │  │  │      │  functional.h
+    │  │      │  │  │      │  iostream.h
+    │  │      │  │  │      │  numpy.h
+    │  │      │  │  │      │  operators.h
+    │  │      │  │  │      │  options.h
+    │  │      │  │  │      │  pybind11.h
+    │  │      │  │  │      │  pytypes.h
+    │  │      │  │  │      │  stl.h
+    │  │      │  │  │      │  stl_bind.h
+    │  │      │  │  │      │  
+    │  │      │  │  │      └─detail
+    │  │      │  │  │              class.h
+    │  │      │  │  │              common.h
+    │  │      │  │  │              descr.h
+    │  │      │  │  │              init.h
+    │  │      │  │  │              internals.h
+    │  │      │  │  │              typeid.h
+    │  │      │  │  │              
+    │  │      │  │  └─tools
+    │  │      │  │          FindCatch.cmake
+    │  │      │  │          FindEigen3.cmake
+    │  │      │  │          FindPythonLibsNew.cmake
+    │  │      │  │          pybind11Tools.cmake
+    │  │      │  │          
+    │  │      │  └─zlib
+    │  │      │          crc32.h
+    │  │      │          deflate.h
+    │  │      │          gzguts.h
+    │  │      │          inffast.h
+    │  │      │          inffixed.h
+    │  │      │          inflate.h
+    │  │      │          inftrees.h
+    │  │      │          trees.h
+    │  │      │          zconf.h
+    │  │      │          zlib.h
+    │  │      │          zutil.h
+    │  │      │          
+    │  │      ├─filtering
+    │  │      │      kalman_filter.h
+    │  │      │      kalman_filter_abstract.h
+    │  │      │      rls_filter.h
+    │  │      │      rls_filter_abstract.h
+    │  │      │      
+    │  │      ├─general_hash
+    │  │      │      count_bits.h
+    │  │      │      count_bits_abstract.h
+    │  │      │      general_hash.h
+    │  │      │      hash.h
+    │  │      │      hash_abstract.h
+    │  │      │      murmur_hash3.h
+    │  │      │      murmur_hash3_abstract.h
+    │  │      │      random_hashing.h
+    │  │      │      random_hashing_abstract.h
+    │  │      │      
+    │  │      ├─geometry
+    │  │      │      border_enumerator.h
+    │  │      │      border_enumerator_abstract.h
+    │  │      │      drectangle.h
+    │  │      │      drectangle_abstract.h
+    │  │      │      line.h
+    │  │      │      line_abstract.h
+    │  │      │      point_transforms.h
+    │  │      │      point_transforms_abstract.h
+    │  │      │      rectangle.h
+    │  │      │      rectangle_abstract.h
+    │  │      │      vector.h
+    │  │      │      vector_abstract.h
+    │  │      │      
+    │  │      ├─global_optimization
+    │  │      │      find_max_global.h
+    │  │      │      find_max_global_abstract.h
+    │  │      │      global_function_search.h
+    │  │      │      global_function_search_abstract.h
+    │  │      │      upper_bound_function.h
+    │  │      │      upper_bound_function_abstract.h
+    │  │      │      
+    │  │      ├─graph
+    │  │      │      graph_kernel_1.h
+    │  │      │      graph_kernel_abstract.h
+    │  │      │      
+    │  │      ├─graph_cuts
+    │  │      │      find_max_factor_graph_potts.h
+    │  │      │      find_max_factor_graph_potts_abstract.h
+    │  │      │      general_flow_graph.h
+    │  │      │      general_potts_problem.h
+    │  │      │      graph_labeler.h
+    │  │      │      graph_labeler_abstract.h
+    │  │      │      min_cut.h
+    │  │      │      min_cut_abstract.h
+    │  │      │      
+    │  │      ├─graph_utils
+    │  │      │      edge_list_graphs.h
+    │  │      │      edge_list_graphs_abstract.h
+    │  │      │      find_k_nearest_neighbors_lsh.h
+    │  │      │      find_k_nearest_neighbors_lsh_abstract.h
+    │  │      │      function_objects.h
+    │  │      │      function_objects_abstract.h
+    │  │      │      graph_utils.h
+    │  │      │      graph_utils_abstract.h
+    │  │      │      ordered_sample_pair.h
+    │  │      │      ordered_sample_pair_abstract.h
+    │  │      │      sample_pair.h
+    │  │      │      sample_pair_abstract.h
+    │  │      │      
+    │  │      ├─gui_core
+    │  │      │      gui_core_kernel_1.h
+    │  │      │      gui_core_kernel_2.h
+    │  │      │      gui_core_kernel_abstract.h
+    │  │      │      windows.h
+    │  │      │      xlib.h
+    │  │      │      
+    │  │      ├─gui_widgets
+    │  │      │      base_widgets.h
+    │  │      │      base_widgets_abstract.h
+    │  │      │      canvas_drawing.h
+    │  │      │      canvas_drawing_abstract.h
+    │  │      │      drawable.h
+    │  │      │      drawable_abstract.h
+    │  │      │      fonts.h
+    │  │      │      fonts_abstract.h
+    │  │      │      nativefont.h
+    │  │      │      style.h
+    │  │      │      style_abstract.h
+    │  │      │      widgets.h
+    │  │      │      widgets_abstract.h
+    │  │      │      
+    │  │      ├─hash_map
+    │  │      │      hash_map_kernel_1.h
+    │  │      │      hash_map_kernel_abstract.h
+    │  │      │      hash_map_kernel_c.h
+    │  │      │      
+    │  │      ├─hash_set
+    │  │      │      hash_set_kernel_1.h
+    │  │      │      hash_set_kernel_abstract.h
+    │  │      │      hash_set_kernel_c.h
+    │  │      │      
+    │  │      ├─hash_table
+    │  │      │      hash_table_kernel_1.h
+    │  │      │      hash_table_kernel_2.h
+    │  │      │      hash_table_kernel_abstract.h
+    │  │      │      hash_table_kernel_c.h
+    │  │      │      
+    │  │      ├─http_client
+    │  │      │      http_client.h
+    │  │      │      http_client_abstract.h
+    │  │      │      
+    │  │      ├─image_keypoint
+    │  │      │      binned_vector_feature_image.h
+    │  │      │      binned_vector_feature_image_abstract.h
+    │  │      │      build_separable_poly_filters.h
+    │  │      │      draw_surf_points.h
+    │  │      │      draw_surf_points_abstract.h
+    │  │      │      fine_hog_image.h
+    │  │      │      fine_hog_image_abstract.h
+    │  │      │      hashed_feature_image.h
+    │  │      │      hashed_feature_image_abstract.h
+    │  │      │      hessian_pyramid.h
+    │  │      │      hessian_pyramid_abstract.h
+    │  │      │      hog.h
+    │  │      │      hog_abstract.h
+    │  │      │      nearest_neighbor_feature_image.h
+    │  │      │      nearest_neighbor_feature_image_abstract.h
+    │  │      │      poly_image.h
+    │  │      │      poly_image_abstract.h
+    │  │      │      surf.h
+    │  │      │      surf_abstract.h
+    │  │      │      
+    │  │      ├─image_loader
+    │  │      │      image_loader.h
+    │  │      │      image_loader_abstract.h
+    │  │      │      jpeg_loader.h
+    │  │      │      jpeg_loader_abstract.h
+    │  │      │      load_image.h
+    │  │      │      load_image_abstract.h
+    │  │      │      png_loader.h
+    │  │      │      png_loader_abstract.h
+    │  │      │      
+    │  │      ├─image_processing
+    │  │      │      box_overlap_testing.h
+    │  │      │      box_overlap_testing_abstract.h
+    │  │      │      correlation_tracker.h
+    │  │      │      correlation_tracker_abstract.h
+    │  │      │      detection_template_tools.h
+    │  │      │      detection_template_tools_abstract.h
+    │  │      │      frontal_face_detector.h
+    │  │      │      frontal_face_detector_abstract.h
+    │  │      │      full_object_detection.h
+    │  │      │      full_object_detection_abstract.h
+    │  │      │      generic_image.h
+    │  │      │      object_detector.h
+    │  │      │      object_detector_abstract.h
+    │  │      │      remove_unobtainable_rectangles.h
+    │  │      │      remove_unobtainable_rectangles_abstract.h
+    │  │      │      render_face_detections.h
+    │  │      │      render_face_detections_abstract.h
+    │  │      │      scan_fhog_pyramid.h
+    │  │      │      scan_fhog_pyramid_abstract.h
+    │  │      │      scan_image.h
+    │  │      │      scan_image_abstract.h
+    │  │      │      scan_image_boxes.h
+    │  │      │      scan_image_boxes_abstract.h
+    │  │      │      scan_image_custom.h
+    │  │      │      scan_image_custom_abstract.h
+    │  │      │      scan_image_pyramid.h
+    │  │      │      scan_image_pyramid_abstract.h
+    │  │      │      scan_image_pyramid_tools.h
+    │  │      │      scan_image_pyramid_tools_abstract.h
+    │  │      │      setup_hashed_features.h
+    │  │      │      setup_hashed_features_abstract.h
+    │  │      │      shape_predictor.h
+    │  │      │      shape_predictor_abstract.h
+    │  │      │      shape_predictor_trainer.h
+    │  │      │      shape_predictor_trainer_abstract.h
+    │  │      │      
+    │  │      ├─image_saver
+    │  │      │      dng_shared.h
+    │  │      │      image_saver.h
+    │  │      │      image_saver_abstract.h
+    │  │      │      save_jpeg.h
+    │  │      │      save_jpeg_abstract.h
+    │  │      │      save_png.h
+    │  │      │      save_png_abstract.h
+    │  │      │      
+    │  │      ├─image_transforms
+    │  │      │      assign_image.h
+    │  │      │      assign_image_abstract.h
+    │  │      │      colormaps.h
+    │  │      │      colormaps_abstract.h
+    │  │      │      draw.h
+    │  │      │      draw_abstract.h
+    │  │      │      edge_detector.h
+    │  │      │      edge_detector_abstract.h
+    │  │      │      equalize_histogram.h
+    │  │      │      equalize_histogram_abstract.h
+    │  │      │      fhog.h
+    │  │      │      fhog_abstract.h
+    │  │      │      hough_transform.h
+    │  │      │      hough_transform_abstract.h
+    │  │      │      image_pyramid.h
+    │  │      │      image_pyramid_abstract.h
+    │  │      │      integral_image.h
+    │  │      │      integral_image_abstract.h
+    │  │      │      interpolation.h
+    │  │      │      interpolation_abstract.h
+    │  │      │      label_connected_blobs.h
+    │  │      │      label_connected_blobs_abstract.h
+    │  │      │      lbp.h
+    │  │      │      lbp_abstract.h
+    │  │      │      morphological_operations.h
+    │  │      │      morphological_operations_abstract.h
+    │  │      │      random_color_transform.h
+    │  │      │      random_color_transform_abstract.h
+    │  │      │      random_cropper.h
+    │  │      │      random_cropper_abstract.h
+    │  │      │      segment_image.h
+    │  │      │      segment_image_abstract.h
+    │  │      │      spatial_filtering.h
+    │  │      │      spatial_filtering_abstract.h
+    │  │      │      thresholding.h
+    │  │      │      thresholding_abstract.h
+    │  │      │      
+    │  │      ├─interfaces
+    │  │      │      cmd_line_parser_option.h
+    │  │      │      enumerable.h
+    │  │      │      map_pair.h
+    │  │      │      remover.h
+    │  │      │      
+    │  │      ├─iosockstream
+    │  │      │      iosockstream.h
+    │  │      │      iosockstream_abstract.h
+    │  │      │      
+    │  │      ├─java
+    │  │      │      java_array.h
+    │  │      │      swig_api.h
+    │  │      │      
+    │  │      ├─linker
+    │  │      │      linker_kernel_1.h
+    │  │      │      linker_kernel_abstract.h
+    │  │      │      
+    │  │      ├─logger
+    │  │      │      extra_logger_headers.h
+    │  │      │      logger_config_file.h
+    │  │      │      logger_kernel_1.h
+    │  │      │      logger_kernel_abstract.h
+    │  │      │      
+    │  │      ├─lsh
+    │  │      │      create_random_projection_hash.h
+    │  │      │      create_random_projection_hash_abstract.h
+    │  │      │      hashes.h
+    │  │      │      hashes_abstract.h
+    │  │      │      projection_hash.h
+    │  │      │      projection_hash_abstract.h
+    │  │      │      
+    │  │      ├─lz77_buffer
+    │  │      │      lz77_buffer_kernel_1.h
+    │  │      │      lz77_buffer_kernel_2.h
+    │  │      │      lz77_buffer_kernel_abstract.h
+    │  │      │      lz77_buffer_kernel_c.h
+    │  │      │      
+    │  │      ├─lzp_buffer
+    │  │      │      lzp_buffer_kernel_1.h
+    │  │      │      lzp_buffer_kernel_2.h
+    │  │      │      lzp_buffer_kernel_abstract.h
+    │  │      │      lzp_buffer_kernel_c.h
+    │  │      │      
+    │  │      ├─manifold_regularization
+    │  │      │      linear_manifold_regularizer.h
+    │  │      │      linear_manifold_regularizer_abstract.h
+    │  │      │      
+    │  │      ├─map
+    │  │      │      map_kernel_1.h
+    │  │      │      map_kernel_abstract.h
+    │  │      │      map_kernel_c.h
+    │  │      │      
+    │  │      ├─matlab
+    │  │      │      call_matlab.h
+    │  │      │      subprocess_stream.h
+    │  │      │      
+    │  │      ├─matrix
+    │  │      │  │  cblas_constants.h
+    │  │      │  │  fft_size.h
+    │  │      │  │  kiss_fft.h
+    │  │      │  │  matrix.h
+    │  │      │  │  matrix_abstract.h
+    │  │      │  │  matrix_assign.h
+    │  │      │  │  matrix_assign_fwd.h
+    │  │      │  │  matrix_blas_bindings.h
+    │  │      │  │  matrix_cholesky.h
+    │  │      │  │  matrix_conj_trans.h
+    │  │      │  │  matrix_conv.h
+    │  │      │  │  matrix_conv_abstract.h
+    │  │      │  │  matrix_data_layout.h
+    │  │      │  │  matrix_data_layout_abstract.h
+    │  │      │  │  matrix_default_mul.h
+    │  │      │  │  matrix_eigenvalue.h
+    │  │      │  │  matrix_exp.h
+    │  │      │  │  matrix_expressions.h
+    │  │      │  │  matrix_exp_abstract.h
+    │  │      │  │  matrix_fft.h
+    │  │      │  │  matrix_fft_abstract.h
+    │  │      │  │  matrix_fwd.h
+    │  │      │  │  matrix_generic_image.h
+    │  │      │  │  matrix_la.h
+    │  │      │  │  matrix_la_abstract.h
+    │  │      │  │  matrix_lu.h
+    │  │      │  │  matrix_mat.h
+    │  │      │  │  matrix_math_functions.h
+    │  │      │  │  matrix_math_functions_abstract.h
+    │  │      │  │  matrix_mat_abstract.h
+    │  │      │  │  matrix_op.h
+    │  │      │  │  matrix_qr.h
+    │  │      │  │  matrix_read_from_istream.h
+    │  │      │  │  matrix_subexp.h
+    │  │      │  │  matrix_subexp_abstract.h
+    │  │      │  │  matrix_trsm.h
+    │  │      │  │  matrix_utilities.h
+    │  │      │  │  matrix_utilities_abstract.h
+    │  │      │  │  mkl_fft.h
+    │  │      │  │  symmetric_matrix_cache.h
+    │  │      │  │  symmetric_matrix_cache_abstract.h
+    │  │      │  │  
+    │  │      │  └─lapack
+    │  │      │          fortran_id.h
+    │  │      │          gees.h
+    │  │      │          geev.h
+    │  │      │          geqrf.h
+    │  │      │          gesdd.h
+    │  │      │          gesvd.h
+    │  │      │          getrf.h
+    │  │      │          ormqr.h
+    │  │      │          pbtrf.h
+    │  │      │          potrf.h
+    │  │      │          syev.h
+    │  │      │          syevr.h
+    │  │      │          
+    │  │      ├─md5
+    │  │      │      md5_kernel_1.h
+    │  │      │      md5_kernel_abstract.h
+    │  │      │      
+    │  │      ├─member_function_pointer
+    │  │      │      make_mfp.h
+    │  │      │      make_mfp_abstract.h
+    │  │      │      member_function_pointer_kernel_1.h
+    │  │      │      member_function_pointer_kernel_abstract.h
+    │  │      │      
+    │  │      ├─memory_manager
+    │  │      │      memory_manager_kernel_1.h
+    │  │      │      memory_manager_kernel_2.h
+    │  │      │      memory_manager_kernel_3.h
+    │  │      │      memory_manager_kernel_abstract.h
+    │  │      │      
+    │  │      ├─memory_manager_global
+    │  │      │      memory_manager_global_kernel_1.h
+    │  │      │      memory_manager_global_kernel_abstract.h
+    │  │      │      
+    │  │      ├─memory_manager_stateless
+    │  │      │      memory_manager_stateless_kernel_1.h
+    │  │      │      memory_manager_stateless_kernel_2.h
+    │  │      │      memory_manager_stateless_kernel_abstract.h
+    │  │      │      
+    │  │      ├─misc_api
+    │  │      │      misc_api_kernel_1.h
+    │  │      │      misc_api_kernel_2.h
+    │  │      │      misc_api_kernel_abstract.h
+    │  │      │      misc_api_shared.h
+    │  │      │      posix.h
+    │  │      │      windows.h
+    │  │      │      
+    │  │      ├─mlp
+    │  │      │      mlp_kernel_1.h
+    │  │      │      mlp_kernel_abstract.h
+    │  │      │      mlp_kernel_c.h
+    │  │      │      
+    │  │      ├─numerical_integration
+    │  │      │      integrate_function_adapt_simpson.h
+    │  │      │      integrate_function_adapt_simpson_abstract.h
+    │  │      │      
+    │  │      ├─opencv
+    │  │      │      cv_image.h
+    │  │      │      cv_image_abstract.h
+    │  │      │      to_open_cv.h
+    │  │      │      to_open_cv_abstract.h
+    │  │      │      
+    │  │      ├─optimization
+    │  │      │      elastic_net.h
+    │  │      │      elastic_net_abstract.h
+    │  │      │      find_max_factor_graph_nmplp.h
+    │  │      │      find_max_factor_graph_nmplp_abstract.h
+    │  │      │      find_max_factor_graph_viterbi.h
+    │  │      │      find_max_factor_graph_viterbi_abstract.h
+    │  │      │      find_max_parse_cky.h
+    │  │      │      find_max_parse_cky_abstract.h
+    │  │      │      find_optimal_parameters.h
+    │  │      │      find_optimal_parameters_abstract.h
+    │  │      │      isotonic_regression.h
+    │  │      │      isotonic_regression_abstract.h
+    │  │      │      max_cost_assignment.h
+    │  │      │      max_cost_assignment_abstract.h
+    │  │      │      max_sum_submatrix.h
+    │  │      │      max_sum_submatrix_abstract.h
+    │  │      │      optimization.h
+    │  │      │      optimization_abstract.h
+    │  │      │      optimization_bobyqa.h
+    │  │      │      optimization_bobyqa_abstract.h
+    │  │      │      optimization_least_squares.h
+    │  │      │      optimization_least_squares_abstract.h
+    │  │      │      optimization_line_search.h
+    │  │      │      optimization_line_search_abstract.h
+    │  │      │      optimization_oca.h
+    │  │      │      optimization_oca_abstract.h
+    │  │      │      optimization_search_strategies.h
+    │  │      │      optimization_search_strategies_abstract.h
+    │  │      │      optimization_solve_qp2_using_smo.h
+    │  │      │      optimization_solve_qp2_using_smo_abstract.h
+    │  │      │      optimization_solve_qp3_using_smo.h
+    │  │      │      optimization_solve_qp3_using_smo_abstract.h
+    │  │      │      optimization_solve_qp_using_smo.h
+    │  │      │      optimization_solve_qp_using_smo_abstract.h
+    │  │      │      optimization_stop_strategies.h
+    │  │      │      optimization_stop_strategies_abstract.h
+    │  │      │      optimization_trust_region.h
+    │  │      │      optimization_trust_region_abstract.h
+    │  │      │      
+    │  │      ├─pipe
+    │  │      │      pipe_kernel_1.h
+    │  │      │      pipe_kernel_abstract.h
+    │  │      │      
+    │  │      ├─python
+    │  │      │      numpy_image.h
+    │  │      │      pyassert.h
+    │  │      │      pybind_utils.h
+    │  │      │      serialize_pickle.h
+    │  │      │      
+    │  │      ├─quantum_computing
+    │  │      │      quantum_computing.h
+    │  │      │      quantum_computing_abstract.h
+    │  │      │      
+    │  │      ├─queue
+    │  │      │      queue_kernel_1.h
+    │  │      │      queue_kernel_2.h
+    │  │      │      queue_kernel_abstract.h
+    │  │      │      queue_kernel_c.h
+    │  │      │      queue_sort_1.h
+    │  │      │      queue_sort_abstract.h
+    │  │      │      
+    │  │      ├─rand
+    │  │      │      mersenne_twister.h
+    │  │      │      rand_kernel_1.h
+    │  │      │      rand_kernel_abstract.h
+    │  │      │      
+    │  │      ├─random_forest
+    │  │      │      random_forest_regression.h
+    │  │      │      random_forest_regression_abstract.h
+    │  │      │      
+    │  │      ├─reference_counter
+    │  │      │      reference_counter_kernel_1.h
+    │  │      │      reference_counter_kernel_abstract.h
+    │  │      │      
+    │  │      ├─sequence
+    │  │      │      sequence_compare_1.h
+    │  │      │      sequence_compare_abstract.h
+    │  │      │      sequence_kernel_1.h
+    │  │      │      sequence_kernel_2.h
+    │  │      │      sequence_kernel_abstract.h
+    │  │      │      sequence_kernel_c.h
+    │  │      │      sequence_sort_1.h
+    │  │      │      sequence_sort_2.h
+    │  │      │      sequence_sort_abstract.h
+    │  │      │      
+    │  │      ├─server
+    │  │      │      server_http.h
+    │  │      │      server_http_abstract.h
+    │  │      │      server_iostream.h
+    │  │      │      server_iostream_abstract.h
+    │  │      │      server_kernel.h
+    │  │      │      server_kernel_abstract.h
+    │  │      │      
+    │  │      ├─set
+    │  │      │      set_compare_1.h
+    │  │      │      set_compare_abstract.h
+    │  │      │      set_kernel_1.h
+    │  │      │      set_kernel_abstract.h
+    │  │      │      set_kernel_c.h
+    │  │      │      
+    │  │      ├─set_utils
+    │  │      │      set_utils.h
+    │  │      │      set_utils_abstract.h
+    │  │      │      
+    │  │      ├─simd
+    │  │      │      simd4f.h
+    │  │      │      simd4i.h
+    │  │      │      simd8f.h
+    │  │      │      simd8i.h
+    │  │      │      simd_check.h
+    │  │      │      
+    │  │      ├─sliding_buffer
+    │  │      │      circular_buffer.h
+    │  │      │      circular_buffer_abstract.h
+    │  │      │      sliding_buffer_kernel_1.h
+    │  │      │      sliding_buffer_kernel_abstract.h
+    │  │      │      sliding_buffer_kernel_c.h
+    │  │      │      
+    │  │      ├─smart_pointers
+    │  │      │      scoped_ptr.h
+    │  │      │      shared_ptr.h
+    │  │      │      shared_ptr_abstract.h
+    │  │      │      shared_ptr_thread_safe.h
+    │  │      │      shared_ptr_thread_safe_abstract.h
+    │  │      │      weak_ptr.h
+    │  │      │      weak_ptr_abstract.h
+    │  │      │      
+    │  │      ├─sockets
+    │  │      │      posix.h
+    │  │      │      sockets_extensions.h
+    │  │      │      sockets_extensions_abstract.h
+    │  │      │      sockets_kernel_1.h
+    │  │      │      sockets_kernel_2.h
+    │  │      │      sockets_kernel_abstract.h
+    │  │      │      windows.h
+    │  │      │      
+    │  │      ├─sockstreambuf
+    │  │      │      sockstreambuf.h
+    │  │      │      sockstreambuf_abstract.h
+    │  │      │      sockstreambuf_unbuffered.h
+    │  │      │      
+    │  │      ├─sqlite
+    │  │      │      sqlite.h
+    │  │      │      sqlite_abstract.h
+    │  │      │      sqlite_tools.h
+    │  │      │      sqlite_tools_abstract.h
+    │  │      │      
+    │  │      ├─stack
+    │  │      │      stack_kernel_1.h
+    │  │      │      stack_kernel_abstract.h
+    │  │      │      stack_kernel_c.h
+    │  │      │      
+    │  │      ├─static_map
+    │  │      │      static_map_kernel_1.h
+    │  │      │      static_map_kernel_abstract.h
+    │  │      │      static_map_kernel_c.h
+    │  │      │      
+    │  │      ├─static_set
+    │  │      │      static_set_compare_1.h
+    │  │      │      static_set_compare_abstract.h
+    │  │      │      static_set_kernel_1.h
+    │  │      │      static_set_kernel_abstract.h
+    │  │      │      static_set_kernel_c.h
+    │  │      │      
+    │  │      ├─statistics
+    │  │      │      average_precision.h
+    │  │      │      average_precision_abstract.h
+    │  │      │      cca.h
+    │  │      │      cca_abstract.h
+    │  │      │      dpca.h
+    │  │      │      dpca_abstract.h
+    │  │      │      image_feature_sampling.h
+    │  │      │      image_feature_sampling_abstract.h
+    │  │      │      lda.h
+    │  │      │      lda_abstract.h
+    │  │      │      random_subset_selector.h
+    │  │      │      random_subset_selector_abstract.h
+    │  │      │      running_gradient.h
+    │  │      │      running_gradient_abstract.h
+    │  │      │      sammon.h
+    │  │      │      sammon_abstract.h
+    │  │      │      statistics.h
+    │  │      │      statistics_abstract.h
+    │  │      │      vector_normalizer_frobmetric.h
+    │  │      │      vector_normalizer_frobmetric_abstract.h
+    │  │      │      
+    │  │      ├─stl_checked
+    │  │      │      std_vector_c.h
+    │  │      │      std_vector_c_abstract.h
+    │  │      │      
+    │  │      ├─string
+    │  │      │      cassert
+    │  │      │      iomanip
+    │  │      │      iosfwd
+    │  │      │      iostream
+    │  │      │      locale
+    │  │      │      string.h
+    │  │      │      string_abstract.h
+    │  │      │      
+    │  │      ├─svm
+    │  │      │      active_learning.h
+    │  │      │      active_learning_abstract.h
+    │  │      │      assignment_function.h
+    │  │      │      assignment_function_abstract.h
+    │  │      │      auto.h
+    │  │      │      auto_abstract.h
+    │  │      │      cross_validate_assignment_trainer.h
+    │  │      │      cross_validate_assignment_trainer_abstract.h
+    │  │      │      cross_validate_graph_labeling_trainer.h
+    │  │      │      cross_validate_graph_labeling_trainer_abstract.h
+    │  │      │      cross_validate_multiclass_trainer.h
+    │  │      │      cross_validate_multiclass_trainer_abstract.h
+    │  │      │      cross_validate_object_detection_trainer.h
+    │  │      │      cross_validate_object_detection_trainer_abstract.h
+    │  │      │      cross_validate_regression_trainer.h
+    │  │      │      cross_validate_regression_trainer_abstract.h
+    │  │      │      cross_validate_sequence_labeler.h
+    │  │      │      cross_validate_sequence_labeler_abstract.h
+    │  │      │      cross_validate_sequence_segmenter.h
+    │  │      │      cross_validate_sequence_segmenter_abstract.h
+    │  │      │      cross_validate_track_association_trainer.h
+    │  │      │      cross_validate_track_association_trainer_abstract.h
+    │  │      │      empirical_kernel_map.h
+    │  │      │      empirical_kernel_map_abstract.h
+    │  │      │      feature_ranking.h
+    │  │      │      feature_ranking_abstract.h
+    │  │      │      function.h
+    │  │      │      function_abstract.h
+    │  │      │      kcentroid.h
+    │  │      │      kcentroid_abstract.h
+    │  │      │      kcentroid_overloads.h
+    │  │      │      kernel.h
+    │  │      │      kernel_abstract.h
+    │  │      │      kernel_matrix.h
+    │  │      │      kernel_matrix_abstract.h
+    │  │      │      kkmeans.h
+    │  │      │      kkmeans_abstract.h
+    │  │      │      krls.h
+    │  │      │      krls_abstract.h
+    │  │      │      krr_trainer.h
+    │  │      │      krr_trainer_abstract.h
+    │  │      │      linearly_independent_subset_finder.h
+    │  │      │      linearly_independent_subset_finder_abstract.h
+    │  │      │      multiclass_tools.h
+    │  │      │      multiclass_tools_abstract.h
+    │  │      │      null_df.h
+    │  │      │      null_trainer.h
+    │  │      │      null_trainer_abstract.h
+    │  │      │      num_nonnegative_weights.h
+    │  │      │      one_vs_all_decision_function.h
+    │  │      │      one_vs_all_decision_function_abstract.h
+    │  │      │      one_vs_all_trainer.h
+    │  │      │      one_vs_all_trainer_abstract.h
+    │  │      │      one_vs_one_decision_function.h
+    │  │      │      one_vs_one_decision_function_abstract.h
+    │  │      │      one_vs_one_trainer.h
+    │  │      │      one_vs_one_trainer_abstract.h
+    │  │      │      pegasos.h
+    │  │      │      pegasos_abstract.h
+    │  │      │      ranking_tools.h
+    │  │      │      ranking_tools_abstract.h
+    │  │      │      rbf_network.h
+    │  │      │      rbf_network_abstract.h
+    │  │      │      reduced.h
+    │  │      │      reduced_abstract.h
+    │  │      │      rls.h
+    │  │      │      rls_abstract.h
+    │  │      │      roc_trainer.h
+    │  │      │      roc_trainer_abstract.h
+    │  │      │      rr_trainer.h
+    │  │      │      rr_trainer_abstract.h
+    │  │      │      rvm.h
+    │  │      │      rvm_abstract.h
+    │  │      │      sequence_labeler.h
+    │  │      │      sequence_labeler_abstract.h
+    │  │      │      sequence_segmenter.h
+    │  │      │      sequence_segmenter_abstract.h
+    │  │      │      simplify_linear_decision_function.h
+    │  │      │      simplify_linear_decision_function_abstract.h
+    │  │      │      sort_basis_vectors.h
+    │  │      │      sort_basis_vectors_abstract.h
+    │  │      │      sparse_kernel.h
+    │  │      │      sparse_kernel_abstract.h
+    │  │      │      sparse_vector.h
+    │  │      │      sparse_vector_abstract.h
+    │  │      │      structural_assignment_trainer.h
+    │  │      │      structural_assignment_trainer_abstract.h
+    │  │      │      structural_graph_labeling_trainer.h
+    │  │      │      structural_graph_labeling_trainer_abstract.h
+    │  │      │      structural_object_detection_trainer.h
+    │  │      │      structural_object_detection_trainer_abstract.h
+    │  │      │      structural_sequence_labeling_trainer.h
+    │  │      │      structural_sequence_labeling_trainer_abstract.h
+    │  │      │      structural_sequence_segmentation_trainer.h
+    │  │      │      structural_sequence_segmentation_trainer_abstract.h
+    │  │      │      structural_svm_assignment_problem.h
+    │  │      │      structural_svm_assignment_problem_abstract.h
+    │  │      │      structural_svm_distributed.h
+    │  │      │      structural_svm_distributed_abstract.h
+    │  │      │      structural_svm_graph_labeling_problem.h
+    │  │      │      structural_svm_graph_labeling_problem_abstract.h
+    │  │      │      structural_svm_object_detection_problem.h
+    │  │      │      structural_svm_object_detection_problem_abstract.h
+    │  │      │      structural_svm_problem.h
+    │  │      │      structural_svm_problem_abstract.h
+    │  │      │      structural_svm_problem_threaded.h
+    │  │      │      structural_svm_problem_threaded_abstract.h
+    │  │      │      structural_svm_sequence_labeling_problem.h
+    │  │      │      structural_svm_sequence_labeling_problem_abstract.h
+    │  │      │      structural_track_association_trainer.h
+    │  │      │      structural_track_association_trainer_abstract.h
+    │  │      │      svm.h
+    │  │      │      svm_abstract.h
+    │  │      │      svm_c_ekm_trainer.h
+    │  │      │      svm_c_ekm_trainer_abstract.h
+    │  │      │      svm_c_linear_dcd_trainer.h
+    │  │      │      svm_c_linear_dcd_trainer_abstract.h
+    │  │      │      svm_c_linear_trainer.h
+    │  │      │      svm_c_linear_trainer_abstract.h
+    │  │      │      svm_c_trainer.h
+    │  │      │      svm_c_trainer_abstract.h
+    │  │      │      svm_multiclass_linear_trainer.h
+    │  │      │      svm_multiclass_linear_trainer_abstract.h
+    │  │      │      svm_nu_trainer.h
+    │  │      │      svm_nu_trainer_abstract.h
+    │  │      │      svm_one_class_trainer.h
+    │  │      │      svm_one_class_trainer_abstract.h
+    │  │      │      svm_rank_trainer.h
+    │  │      │      svm_rank_trainer_abstract.h
+    │  │      │      svm_threaded.h
+    │  │      │      svm_threaded_abstract.h
+    │  │      │      svr_linear_trainer.h
+    │  │      │      svr_linear_trainer_abstract.h
+    │  │      │      svr_trainer.h
+    │  │      │      svr_trainer_abstract.h
+    │  │      │      track_association_function.h
+    │  │      │      track_association_function_abstract.h
+    │  │      │      
+    │  │      ├─sync_extension
+    │  │      │      sync_extension_kernel_1.h
+    │  │      │      sync_extension_kernel_abstract.h
+    │  │      │      
+    │  │      ├─test
+    │  │      │  │  binary_search_tree.h
+    │  │      │  │  checkerboard.h
+    │  │      │  │  cmd_line_parser.h
+    │  │      │  │  conditioning_class.h
+    │  │      │  │  create_iris_datafile.h
+    │  │      │  │  fftr_good_data.h
+    │  │      │  │  optimization_test_functions.h
+    │  │      │  │  tester.h
+    │  │      │  │  
+    │  │      │  ├─blas_bindings
+    │  │      │  ├─examples
+    │  │      │  ├─gui
+    │  │      │  └─tools
+    │  │      ├─threads
+    │  │      │      async.h
+    │  │      │      async_abstract.h
+    │  │      │      auto_mutex_extension.h
+    │  │      │      auto_mutex_extension_abstract.h
+    │  │      │      auto_unlock_extension.h
+    │  │      │      auto_unlock_extension_abstract.h
+    │  │      │      create_new_thread_extension.h
+    │  │      │      create_new_thread_extension_abstract.h
+    │  │      │      multithreaded_object_extension.h
+    │  │      │      multithreaded_object_extension_abstract.h
+    │  │      │      parallel_for_extension.h
+    │  │      │      parallel_for_extension_abstract.h
+    │  │      │      posix.h
+    │  │      │      read_write_mutex_extension.h
+    │  │      │      read_write_mutex_extension_abstract.h
+    │  │      │      rmutex_extension.h
+    │  │      │      rmutex_extension_abstract.h
+    │  │      │      rsignaler_extension.h
+    │  │      │      rsignaler_extension_abstract.h
+    │  │      │      threaded_object_extension.h
+    │  │      │      threaded_object_extension_abstract.h
+    │  │      │      threads_kernel.h
+    │  │      │      threads_kernel_1.h
+    │  │      │      threads_kernel_2.h
+    │  │      │      threads_kernel_abstract.h
+    │  │      │      threads_kernel_shared.h
+    │  │      │      thread_function_extension.h
+    │  │      │      thread_function_extension_abstract.h
+    │  │      │      thread_pool_extension.h
+    │  │      │      thread_pool_extension_abstract.h
+    │  │      │      thread_specific_data_extension.h
+    │  │      │      thread_specific_data_extension_abstract.h
+    │  │      │      windows.h
+    │  │      │      
+    │  │      ├─timeout
+    │  │      │      timeout.h
+    │  │      │      timeout_abstract.h
+    │  │      │      
+    │  │      ├─timer
+    │  │      │      timer.h
+    │  │      │      timer_abstract.h
+    │  │      │      timer_heavy.h
+    │  │      │      
+    │  │      ├─tokenizer
+    │  │      │      tokenizer_kernel_1.h
+    │  │      │      tokenizer_kernel_abstract.h
+    │  │      │      tokenizer_kernel_c.h
+    │  │      │      
+    │  │      ├─travis
+    │  │      ├─tuple
+    │  │      │      tuple.h
+    │  │      │      tuple_abstract.h
+    │  │      │      
+    │  │      ├─type_safe_union
+    │  │      │      type_safe_union_kernel.h
+    │  │      │      type_safe_union_kernel_abstract.h
+    │  │      │      
+    │  │      ├─unicode
+    │  │      │      unicode.h
+    │  │      │      unicode_abstract.h
+    │  │      │      
+    │  │      ├─vectorstream
+    │  │      │      unserialize.h
+    │  │      │      unserialize_abstract.h
+    │  │      │      vectorstream.h
+    │  │      │      vectorstream_abstract.h
+    │  │      │      
+    │  │      └─xml_parser
+    │  │              xml_parser_kernel_1.h
+    │  │              xml_parser_kernel_abstract.h
+    │  │              xml_parser_kernel_interfaces.h
+    │  │              
+    │  └─lib
+    │      │  dlib19.22.0_debug_64bit_msvc1930.lib
+    │      │  
+    │      ├─cmake
+    │      │  └─dlib
+    │      │          dlib-debug.cmake
+    │      │          dlib.cmake
+    │      │          dlibConfig.cmake
+    │      │          dlibConfigVersion.cmake
+    │      │          
+    │      └─pkgconfig
+    │              dlib-1.pc
+    │              
+    ├─Face_Detect_C
+    │  │  0001.jpg
+    │  │  2.png
+    │  │  decoder.h
+    │  │  face_detector.h
+    │  │  Face_Detect_C.vcxproj
+    │  │  Face_Detect_C.vcxproj.filters
+    │  │  Face_Detect_C.vcxproj.user
+    │  │  FilerAdder.h
+    │  │  main.cpp
+    │  │  opencv_ffmpeg341_64.dll
+    │  │  opencv_world341d.dll
+    │  │  packages.config
+    │  │  Saver.h
+    │  │  shape_predictor_68_face_landmarks.dat
+    │  │  src1.jpg
+    │  │  tmpcolor.jpg
+    │  │  
+    │  └─x64
+    │      └─Debug
+    │          │  Face_Detect_C.Build.CppClean.log
+    │          │  Face_Detect_C.exe.recipe
+    │          │  Face_Detect_C.ilk
+    │          │  Face_Detect_C.log
+    │          │  Face_Detect_C.vcxproj.FileListAbsolute.txt
+    │          │  main.obj
+    │          │  main.obj.enc
+    │          │  vc143.idb
+    │          │  vc143.pdb
+    │          │  
+    │          └─Face_Detect_C.tlog
+    │                  CL.command.1.tlog
+    │                  CL.read.1.tlog
+    │                  CL.write.1.tlog
+    │                  Face_Detect_C.lastbuildstate
+    │                  link.command.1.tlog
+    │                  link.read.1.tlog
+    │                  link.write.1.tlog
+    │                  
+    ├─packages
+    │  ├─nupengl.core.0.1.0.1
+    │  │  │  .signature.p7s
+    │  │  │  nupengl.core.0.1.0.1.nupkg
+    │  │  │  
+    │  │  └─build
+    │  │      │  configurations.autopkg
+    │  │      │  publisher-info.txt
+    │  │      │  
+    │  │      └─native
+    │  │          │  default-propertiesui.xml
+    │  │          │  nupengl.core.targets
+    │  │          │  
+    │  │          ├─docs
+    │  │          │      license.txt
+    │  │          │      
+    │  │          ├─include
+    │  │          │  ├─GL
+    │  │          │  │      freeglut.h
+    │  │          │  │      freeglut_ext.h
+    │  │          │  │      freeglut_std.h
+    │  │          │  │      glew.h
+    │  │          │  │      glut.h
+    │  │          │  │      glxew.h
+    │  │          │  │      wglew.h
+    │  │          │  │      
+    │  │          │  └─GLFW
+    │  │          │          glfw3.h
+    │  │          │          glfw3native.h
+    │  │          │          
+    │  │          └─lib
+    │  │              ├─Win32
+    │  │              │      freeglut.lib
+    │  │              │      glew32.lib
+    │  │              │      glfw3dll.lib
+    │  │              │      
+    │  │              └─x64
+    │  │                      freeglut.lib
+    │  │                      glew32.lib
+    │  │                      glfw3dll.lib
+    │  │                      
+    │  └─nupengl.core.redist.0.1.0.1
+    │      │  .signature.p7s
+    │      │  nupengl.core.redist.0.1.0.1.nupkg
+    │      │  
+    │      └─build
+    │          │  configurations.autopkg
+    │          │  publisher-info.txt
+    │          │  
+    │          └─native
+    │              │  default-propertiesui.xml
+    │              │  nupengl.core.redist.targets
+    │              │  
+    │              └─bin
+    │                  ├─Win32
+    │                  │      freeglut.dll
+    │                  │      glew32.dll
+    │                  │      glewinfo.exe
+    │                  │      glfw3.dll
+    │                  │      visualinfo.exe
+    │                  │      
+    │                  └─x64
+    │                          freeglut.dll
+    │                          glew32.dll
+    │                          glewinfo.exe
+    │                          glfw3.dll
+    │                          visualinfo.exe
+    │                          
+    ├─video
+    │      test.mp4
+    │      
+    └─x64
+        └─Debug
+                Face_Detect_C.exe
+                Face_Detect_C.pdb
+                freeglut.dll
+                glew32.dll
+                glewinfo.exe
+                glfw3.dll
+                visualinfo.exe
+                
